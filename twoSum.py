@@ -11,8 +11,6 @@ class Solution:
                     result.append(j)
                     print(result)
 
-
-
 def main():
     sln = Solution()
     nums=[2,7,11,15]
