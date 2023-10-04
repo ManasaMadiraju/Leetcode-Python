@@ -7,7 +7,7 @@ class Solution:
                     counter = counter +1
         return counter          
                     
-
+                    
 def main():
     nums=[1,2,3,1,1,3]
     s=Solution()
