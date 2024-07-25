@@ -12,3 +12,13 @@ class Solution:
                 return mid
         return -1
         
+def main():
+        nums = [-1,0,3,5,9,12]
+        target = 9
+        s=Solution()
+        result = s.search(nums, target)
+        print(result)
+
+
+if __name__ == "__main__":
+    main()
