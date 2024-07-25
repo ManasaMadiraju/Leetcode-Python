@@ -9,7 +9,7 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         l, r = 1, n
 
-        while l<=r:
+        while l <= r:
             m = (l+r) // 2
             if guess(m) < 0:
                 r = m-1
