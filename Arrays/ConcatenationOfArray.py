@@ -7,8 +7,9 @@ class Solution:
                 ans.append(n)
         return ans
     
+    
 def main():
-    nums = [1,2,1]
+    nums = [1,2,3]
     s = Solution()
     result = s.getConcatenation(nums)
     print(result)
